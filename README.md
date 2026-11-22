@@ -37,6 +37,7 @@ Framework/Automations/Build.bat [Your Platform Name]
 
 ## Hot reload
 Easily iterate your programming process using hot reload. (Debug only, not available on Release)
+
 Any code you wrote will be reloaded via a .dll and any data put inside Program/Types/Program's Program State will be preserved upon the next reload.
 
 ## Asset Pipeline
