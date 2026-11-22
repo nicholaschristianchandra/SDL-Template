@@ -62,7 +62,7 @@ SDL_Surface *icon = Assets::LoadIcon("Icon.png");
 ## Automatic header generation
 Hate headers? Me too. Stop writing headers and start writing actual code using the template's custom C++ parser.
 
-Behind the scenes, it will recreate a header that will extern all of your functions and variables. A function or variable could be marked as private by putting it inside an empty namespace or with the static keyword.
+Behind the scenes it will recreate a header that will extern all of your functions and variables whenever it detects a script that has been saved. A function or variable could be marked as private by putting it inside an empty namespace or with the static keyword.
 
 The Systems/Types/Datas framework split exists for this very reason. More on that in the Custom framework section.
 Of course, like any custom parser it has limitation, but it has been tested and iterated and for 90% of your usage, as long as you don't do very weird and niche C++, you'll be fine.
