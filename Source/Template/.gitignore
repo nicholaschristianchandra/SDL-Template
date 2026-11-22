@@ -1,0 +1,12 @@
+Builds/
+Symbols/
+
+Framework/Includes/
+
+.vs/
+*.user
+*.suo
+ENC_Temp_Folder/
+**/ENC_Temp_Folder/
+
+Keystore/

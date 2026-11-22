@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{07782c22-a88d-1e82-a099-10124a9225a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Automations">
+      <UniqueIdentifier>{3dec4e51-a282-250c-0a73-5c81962b185e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Automations\Platforms">
+      <UniqueIdentifier>{b6c776f2-a756-a9e8-40db-5c746df893dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Automations\Platforms\Android">
+      <UniqueIdentifier>{11890679-e3ca-7cca-48dd-bc8c53abd984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Automations\Platforms\Linux">
+      <UniqueIdentifier>{04464036-9159-828a-6302-890fcc4064c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Automations\Platforms\Web">
+      <UniqueIdentifier>{28f0b19a-b7b1-bd12-09f8-4378b461b5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Automations\Platforms\Windows">
+      <UniqueIdentifier>{b5ab4461-9c4f-47ad-4b6d-e6439c58c463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Includes">
+      <UniqueIdentifier>{03183be0-766f-d153-31d3-d59b7dfb1520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Includes\Uses">
+      <UniqueIdentifier>{2c680acc-17d0-eda8-9e00-abf77dd9e4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{aeb42855-4a0a-cc6c-c503-a2e4da6ae61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3">
+      <UniqueIdentifier>{221cf579-6502-601b-f555-b578ee7c0f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3\include">
+      <UniqueIdentifier>{25434f7c-eb8a-54cd-91e3-6a9623d57a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3\include\SDL3">
+      <UniqueIdentifier>{d37a5ba6-347a-c84e-81bd-0019eb24eb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3\lib">
+      <UniqueIdentifier>{72a107c2-5871-fb0b-deab-00a4097443aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3\lib\Linux">
+      <UniqueIdentifier>{1a939c32-4abf-2ab1-c48e-9a2276c8908b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3\lib\Linux\x64">
+      <UniqueIdentifier>{8d5ad2d3-bc00-c5ac-f47e-3422345decf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3\lib\Windows">
+      <UniqueIdentifier>{a31fcdaa-f46e-815c-ba8b-778d43d20bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3\lib\Windows\x64">
+      <UniqueIdentifier>{a5b4bd32-839b-ed7b-8cbc-9aab8fbedbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SDL3\lib\Windows\x86">
+      <UniqueIdentifier>{fc59eb06-60a3-6396-76a6-c1cf6ca0f2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\UPX">
+      <UniqueIdentifier>{860a6d39-fdf9-5432-c56b-f1f5b1ce0075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program">
+      <UniqueIdentifier>{95c50c7c-c68e-399a-c554-0898dfd06820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Assets">
+      <UniqueIdentifier>{a0e025f8-53de-c902-6368-96b044edc10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Code">
+      <UniqueIdentifier>{dcfceb27-6938-d051-a223-c8e3324081a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Code\Datas">
+      <UniqueIdentifier>{b221f6ae-49bd-3898-d245-d4ca10bbdfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Code\Systems">
+      <UniqueIdentifier>{8493ebbe-15bd-6656-6767-688ca65c7dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Code\Types">
+      <UniqueIdentifier>{0a3d615f-52f6-625d-16f0-c3502d90f152}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include=".vsconfig" />
+    <None Include="Config.bat" />
+    <None Include="Framework\Automations\Build.bat">
+      <Filter>Framework\Automations</Filter>
+    </None>
+    <None Include="Framework\Automations\Clean.bat">
+      <Filter>Framework\Automations</Filter>
+    </None>
+    <None Include="Framework\Automations\Script.zip">
+      <Filter>Framework\Automations</Filter>
+    </None>
+    <None Include="Framework\Automations\SetupHelpers.ps1">
+      <Filter>Framework\Automations</Filter>
+    </None>
+    <None Include="Framework\Automations\Tools.cpp">
+      <Filter>Framework\Automations</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Android\AndroidManifest.xml">
+      <Filter>Framework\Automations\Platforms\Android</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Android\Build.bat">
+      <Filter>Framework\Automations\Platforms\Android</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Android\Config.bat">
+      <Filter>Framework\Automations\Platforms\Android</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Android\Setup.ps1">
+      <Filter>Framework\Automations\Platforms\Android</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Linux\Build.bat">
+      <Filter>Framework\Automations\Platforms\Linux</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Linux\Config.bat">
+      <Filter>Framework\Automations\Platforms\Linux</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Linux\Linux.sh">
+      <Filter>Framework\Automations\Platforms\Linux</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Linux\Setup.ps1">
+      <Filter>Framework\Automations\Platforms\Linux</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Web\Build.bat">
+      <Filter>Framework\Automations\Platforms\Web</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Web\Config.bat">
+      <Filter>Framework\Automations\Platforms\Web</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Web\Setup.ps1">
+      <Filter>Framework\Automations\Platforms\Web</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Web\Shell.html">
+      <Filter>Framework\Automations\Platforms\Web</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Windows\Build.bat">
+      <Filter>Framework\Automations\Platforms\Windows</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Windows\Config.bat">
+      <Filter>Framework\Automations\Platforms\Windows</Filter>
+    </None>
+    <None Include="Framework\Automations\Platforms\Windows\Manifest.manifest">
+      <Filter>Framework\Automations\Platforms\Windows</Filter>
+    </None>
+    <None Include="Libraries\SDL3\LICENSE.txt">
+      <Filter>Libraries\SDL3</Filter>
+    </None>
+    <None Include="Libraries\SDL3\UpdateSDL.bat">
+      <Filter>Libraries\SDL3</Filter>
+    </None>
+    <None Include="Libraries\SDL3\lib\Linux\x64\libSDL3.a">
+      <Filter>Libraries\SDL3\lib\Linux\x64</Filter>
+    </None>
+    <None Include="Libraries\SDL3\lib\Windows\x64\SDL3-static.lib">
+      <Filter>Libraries\SDL3\lib\Windows\x64</Filter>
+    </None>
+    <None Include="Libraries\SDL3\lib\Windows\x64\SDL3.dll">
+      <Filter>Libraries\SDL3\lib\Windows\x64</Filter>
+    </None>
+    <None Include="Libraries\SDL3\lib\Windows\x64\SDL3.lib">
+      <Filter>Libraries\SDL3\lib\Windows\x64</Filter>
+    </None>
+    <None Include="Libraries\SDL3\lib\Windows\x86\SDL3-static.lib">
+      <Filter>Libraries\SDL3\lib\Windows\x86</Filter>
+    </None>
+    <None Include="Libraries\SDL3\lib\Windows\x86\SDL3.dll">
+      <Filter>Libraries\SDL3\lib\Windows\x86</Filter>
+    </None>
+    <None Include="Libraries\SDL3\lib\Windows\x86\SDL3.lib">
+      <Filter>Libraries\SDL3\lib\Windows\x86</Filter>
+    </None>
+    <None Include="Libraries\UPX\LICENSE">
+      <Filter>Libraries\UPX</Filter>
+    </None>
+    <None Include="Libraries\UPX\upx.exe">
+      <Filter>Libraries\UPX</Filter>
+    </None>
+    <None Include="Program\Code\Datas\keep">
+      <Filter>Program\Code\Datas</Filter>
+    </None>
+    <None Include="Program\Code\Systems\keep">
+      <Filter>Program\Code\Systems</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Code\Program.cpp">
+      <Filter>Program\Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Assets.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Framework.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Precompiled.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utilities.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Includes\Datas.hpp">
+      <Filter>Framework\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Includes\ForwardDeclarations.hpp">
+      <Filter>Framework\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Includes\Types.hpp">
+      <Filter>Framework\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Includes\Uses\Program.hpp">
+      <Filter>Framework\Includes\Uses</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_assert.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_asyncio.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_atomic.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_audio.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_begin_code.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_bits.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_blendmode.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_camera.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_clipboard.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_close_code.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_copying.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_cpuinfo.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_dialog.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_dlopennote.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_egl.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_endian.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_error.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_events.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_filesystem.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_gamepad.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_gpu.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_guid.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_haptic.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_hidapi.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_hints.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_init.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_intrin.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_iostream.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_joystick.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_keyboard.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_keycode.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_loadso.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_locale.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_log.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_main.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_main_impl.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_messagebox.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_metal.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_misc.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_mouse.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_mutex.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_oldnames.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_opengl.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_opengl_glext.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_opengles.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_opengles2.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_opengles2_gl2.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_opengles2_gl2ext.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_opengles2_gl2platform.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_opengles2_khrplatform.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_pen.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_pixels.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_platform.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_platform_defines.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_power.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_process.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_properties.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_rect.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_render.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_revision.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_scancode.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_sensor.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_stdinc.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_storage.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_surface.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_system.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_thread.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_time.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_timer.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_touch.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_tray.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_version.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_video.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\SDL3\include\SDL3\SDL_vulkan.h">
+      <Filter>Libraries\SDL3\include\SDL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Code\Types\Program.hpp">
+      <Filter>Program\Code\Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Guide.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Program\Assets\Icon.png">
+      <Filter>Program\Assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

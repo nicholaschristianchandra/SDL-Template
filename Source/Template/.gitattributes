@@ -1,0 +1,22 @@
+# Text files are checked out with Windows line endings, so Visual Studio never sees mixed ones
+* text=auto eol=crlf
+
+# Shell scripts run in WSL or on Linux, where Windows line endings break them
+*.sh text eol=lf
+
+# Explicitly mark binaries - don't rely on text=auto's heuristic for these
+*.dll binary
+*.lib binary
+*.exe binary
+*.ico binary
+*.png binary
+*.pdb binary
+*.obj binary
+*.a binary
+*.so binary
+*.jar binary
+*.keystore binary
+
+# Archives and compiled shaders
+*.zip binary
+*.dxil binary

@@ -1,0 +1,200 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SDL Template</Name>
+    <Description>SDL3 C++ template for Windows, Linux, the web and Android: SDL main callbacks, SDL_GPU with build-time HLSL shader compilation, a custom build system, asset pipeline, hot reload, and code architecture.</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SDL Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SDL Template.vcxproj" File="SDL Template.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SDL Template.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.user">SDL Template.vcxproj.user</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName=".clang-format">.clang-format</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName=".gitattributes">.gitattributes</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName=".gitignore">.gitignore</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName=".vsconfig">.vsconfig</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Config.bat">Config.bat</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Guide.pdf">Guide.pdf</ProjectItem>
+      <Folder Name="FRAMEWORK" TargetFolderName="Framework">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Assets.hpp">Assets.hpp</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Framework.hpp">Framework.hpp</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Main.cpp">Main.cpp</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Precompiled.hpp">Precompiled.hpp</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Utilities.hpp">Utilities.hpp</ProjectItem>
+        <Folder Name="AUTOMATIONS" TargetFolderName="Automations">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Build.bat">Build.bat</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Clean.bat">Clean.bat</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Script.zip">Script.zip</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="SetupHelpers.ps1">SetupHelpers.ps1</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Tools.cpp">Tools.cpp</ProjectItem>
+          <Folder Name="PLATFORMS" TargetFolderName="Platforms">
+            <Folder Name="ANDROID" TargetFolderName="Android">
+              <ProjectItem ReplaceParameters="false" TargetFileName="AndroidManifest.xml">AndroidManifest.xml</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Build.bat">Build.bat</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Config.bat">Config.bat</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Setup.ps1">Setup.ps1</ProjectItem>
+            </Folder>
+            <Folder Name="LINUX" TargetFolderName="Linux">
+              <ProjectItem ReplaceParameters="false" TargetFileName="Build.bat">Build.bat</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Config.bat">Config.bat</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Linux.sh">Linux.sh</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Setup.ps1">Setup.ps1</ProjectItem>
+            </Folder>
+            <Folder Name="WEB" TargetFolderName="Web">
+              <ProjectItem ReplaceParameters="false" TargetFileName="Build.bat">Build.bat</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Config.bat">Config.bat</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Setup.ps1">Setup.ps1</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Shell.html">Shell.html</ProjectItem>
+            </Folder>
+            <Folder Name="WINDOWS" TargetFolderName="Windows">
+              <ProjectItem ReplaceParameters="false" TargetFileName="Build.bat">Build.bat</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Config.bat">Config.bat</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="Manifest.manifest">Manifest.manifest</ProjectItem>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="INCLUDES" TargetFolderName="Includes">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Datas.hpp">Datas.hpp</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ForwardDeclarations.hpp">ForwardDeclarations.hpp</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Types.hpp">Types.hpp</ProjectItem>
+          <Folder Name="USES" TargetFolderName="Uses">
+            <ProjectItem ReplaceParameters="false" TargetFileName="Program.hpp">Program.hpp</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="LIBRARIES" TargetFolderName="Libraries">
+        <Folder Name="SDL3" TargetFolderName="SDL3">
+          <ProjectItem ReplaceParameters="false" TargetFileName="LICENSE.txt">LICENSE.txt</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="UpdateSDL.bat">UpdateSDL.bat</ProjectItem>
+          <Folder Name="INCLUDE" TargetFolderName="include">
+            <Folder Name="SDL3" TargetFolderName="SDL3">
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL.h">SDL.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_assert.h">SDL_assert.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_asyncio.h">SDL_asyncio.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_atomic.h">SDL_atomic.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_audio.h">SDL_audio.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_begin_code.h">SDL_begin_code.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_bits.h">SDL_bits.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_blendmode.h">SDL_blendmode.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_camera.h">SDL_camera.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_clipboard.h">SDL_clipboard.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_close_code.h">SDL_close_code.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_copying.h">SDL_copying.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_cpuinfo.h">SDL_cpuinfo.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_dialog.h">SDL_dialog.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_dlopennote.h">SDL_dlopennote.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_egl.h">SDL_egl.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_endian.h">SDL_endian.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_error.h">SDL_error.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_events.h">SDL_events.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_filesystem.h">SDL_filesystem.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_gamepad.h">SDL_gamepad.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_gpu.h">SDL_gpu.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_guid.h">SDL_guid.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_haptic.h">SDL_haptic.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_hidapi.h">SDL_hidapi.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_hints.h">SDL_hints.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_init.h">SDL_init.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_intrin.h">SDL_intrin.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_iostream.h">SDL_iostream.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_joystick.h">SDL_joystick.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_keyboard.h">SDL_keyboard.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_keycode.h">SDL_keycode.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_loadso.h">SDL_loadso.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_locale.h">SDL_locale.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_log.h">SDL_log.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_main.h">SDL_main.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_main_impl.h">SDL_main_impl.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_messagebox.h">SDL_messagebox.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_metal.h">SDL_metal.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_misc.h">SDL_misc.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_mouse.h">SDL_mouse.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_mutex.h">SDL_mutex.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_oldnames.h">SDL_oldnames.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengl.h">SDL_opengl.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengl_glext.h">SDL_opengl_glext.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles.h">SDL_opengles.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2.h">SDL_opengles2.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2_gl2.h">SDL_opengles2_gl2.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2_gl2ext.h">SDL_opengles2_gl2ext.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2_gl2platform.h">SDL_opengles2_gl2platform.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2_khrplatform.h">SDL_opengles2_khrplatform.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_pen.h">SDL_pen.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_pixels.h">SDL_pixels.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_platform.h">SDL_platform.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_platform_defines.h">SDL_platform_defines.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_power.h">SDL_power.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_process.h">SDL_process.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_properties.h">SDL_properties.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_rect.h">SDL_rect.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_render.h">SDL_render.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_revision.h">SDL_revision.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_scancode.h">SDL_scancode.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_sensor.h">SDL_sensor.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_stdinc.h">SDL_stdinc.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_storage.h">SDL_storage.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_surface.h">SDL_surface.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_system.h">SDL_system.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_thread.h">SDL_thread.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_time.h">SDL_time.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_timer.h">SDL_timer.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_touch.h">SDL_touch.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_tray.h">SDL_tray.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_version.h">SDL_version.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_video.h">SDL_video.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="SDL_vulkan.h">SDL_vulkan.h</ProjectItem>
+            </Folder>
+          </Folder>
+          <Folder Name="LIB" TargetFolderName="lib">
+            <Folder Name="LINUX" TargetFolderName="Linux">
+              <Folder Name="X64" TargetFolderName="x64">
+                <ProjectItem ReplaceParameters="false" TargetFileName="libSDL3.a">libSDL3.a</ProjectItem>
+              </Folder>
+            </Folder>
+            <Folder Name="WINDOWS" TargetFolderName="Windows">
+              <Folder Name="X64" TargetFolderName="x64">
+                <ProjectItem ReplaceParameters="false" TargetFileName="SDL3-static.lib">SDL3-static.lib</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.dll">SDL3.dll</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.lib">SDL3.lib</ProjectItem>
+              </Folder>
+              <Folder Name="X86" TargetFolderName="x86">
+                <ProjectItem ReplaceParameters="false" TargetFileName="SDL3-static.lib">SDL3-static.lib</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.dll">SDL3.dll</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.lib">SDL3.lib</ProjectItem>
+              </Folder>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="UPX" TargetFolderName="UPX">
+          <ProjectItem ReplaceParameters="false" TargetFileName="LICENSE">LICENSE</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="upx.exe">upx.exe</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="PROGRAM" TargetFolderName="Program">
+        <Folder Name="ASSETS" TargetFolderName="Assets">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon.png">Icon.png</ProjectItem>
+        </Folder>
+        <Folder Name="CODE" TargetFolderName="Code">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Program.cpp">Program.cpp</ProjectItem>
+          <Folder Name="DATAS" TargetFolderName="Datas">
+            <ProjectItem ReplaceParameters="false" TargetFileName="keep">keep</ProjectItem>
+          </Folder>
+          <Folder Name="SYSTEMS" TargetFolderName="Systems">
+            <ProjectItem ReplaceParameters="false" TargetFileName="keep">keep</ProjectItem>
+          </Folder>
+          <Folder Name="TYPES" TargetFolderName="Types">
+            <ProjectItem ReplaceParameters="false" TargetFileName="Program.hpp">Program.hpp</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
