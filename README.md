@@ -109,7 +109,7 @@ for all the magic to work.
 
 This template also comes with `Stress Test.zip` whose `Library/` and `Program/` you can copy to stress-test SDL and this template.
 
-It should display a duck model on top of a brick plane with a day-and-night cycle, particles, and the ability to spawn waves of ducks around it.
+It should display a duck model on top of a brick plane with a day-and-night cycle, particles, and the ability to spawn waves of ducks around it with Blue Monday playing in the background.
 
 ## Final Words
 
