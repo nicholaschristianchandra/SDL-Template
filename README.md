@@ -25,7 +25,7 @@ It includes features such as...
 
 ## Custom incremental build system
 By default it supports builds to these platforms:
-- **Windows**: supports both x64 and x86, with an option to make it a single exe using EMBED_ASSETS and compression using UPX
+- **Windows**: supports both x64 and x86, with an option to make it a single exe using EMBED_ASSETS and compression using COMPRESS_WITH_UPX
 - **Linux**: exports to Linux via Zig which can be packaged as a tar.gz or AppImage. Like windows, it can also be single executable and compressed.
 - **Web**: exports to web via Emscripten.
 - **Android**: exports to APK and/or AAB without a gradle project nor Android Studio. It also allows you to set up your keystore easily during setup. Also supports USB debugging.
