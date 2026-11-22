@@ -93,7 +93,7 @@ A tiny utility script I wrote because I personally love doing C-like C++ and nee
 All game code lives in one of three folders under `Program\Code`. If you know C++ projects: Types are the headers and Systems are the source files, except that you never write a declaration twice.
 
 - **Types**: What every script needs whole: structs, classes, enums, unions, templates, constants, and inline or constexpr functions. Types files are included in every script, so a function defined in one must be inline, constexpr or a template. A Types file that uses another includes it: `#include <Program/Code/Types/Other.hpp>`.
-- **Datas**: Data definitions: databases, settings and similar tables.
+- **Datas**: Data definitions: databases, settings and similar tables. Needs to be included on a Systems script: `#include <Program/Code/Datas/SomeData.hpp`
 - **Systems**: Logic. Any script can use another script's functions and variables by name, with no includes and in any order.
 
 Every script must start with
