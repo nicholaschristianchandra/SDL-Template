@@ -72,7 +72,7 @@ Hate headers? Me too. Stop writing headers and start writing actual code using t
 
 Behind the scenes it will recreate a header that will extern all of your functions and variables whenever it detects a saved script under `Program/Code`. A function or variable could be marked as private by putting it inside an empty namespace or with the `static` keyword.
 
-The Systems/Types/Datas framework split exists for this very reason. More on that in the Custom Framework section.
+The Systems/Types/Datas framework split exists for this very reason. More on that in the [Custom Framework section](https://github.com/nicholaschristianchandra/SDL-Template#custom-framework).
 
 Of course, like any custom parser, it has limitations, but it has been tested and iterated, and for 90% of your usage, as long as you don't do very weird and niche C++, you'll be fine.
 
