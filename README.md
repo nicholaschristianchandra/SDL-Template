@@ -45,6 +45,21 @@ Easily iterate your programming process using hot reload. (Debug only, not avail
 
 Any code you wrote will be reloaded via a .dll and any data put inside `Program/Types/Program`'s Program State will be preserved upon the next reload.
 
+```cpp
+namespace Program
+{
+	constexpr Uint32 WINDOW_TITLE_MAX_LENGTH = 128;
+
+	struct State
+	{
+		String(WINDOW_TITLE_MAX_LENGTH) WindowTitle = { PROGRAM_NAME };
+		SDL_Point Resolution = {.x = 640, .y = 480};
+		SDL_Window *Window = null;
+		SDL_Renderer *Renderer = null;
+	};
+}
+```
+
 ## Asset Pipeline
 
 Importing assets (images, audio, HLSL, and really anything) is as simple as putting it under `Program/Assets`. For HLSL shaders the template will convert it to the target platform's shader format such as .dxil for Windows and .spirv for Android and Linux.
