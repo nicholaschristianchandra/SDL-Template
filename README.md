@@ -24,8 +24,6 @@ If not, go to `%localappdata%/Microsoft/VisualStudio/[Version]/` and try deletin
 - `ItemTemplatesCache_`
 - `ProjectTemplatesCache_`
 
-It includes features such as...
-
 ## Custom incremental build system
 
 By default it supports builds to these platforms:
