@@ -30,7 +30,7 @@ By default it supports builds to these platforms:
 - **Web**: exports to web via Emscripten.
 - **Android**: exports to APK and/or AAB without a gradle project nor Android Studio. It also allows you to set up your keystore easily during setup. Also supports USB debugging.
 
-It doesn't support MacOS (because I don't have a mac and I'm pretty sure Mac's SDK is paid or something) nor consoles (because of NDAs). However, the template is build for modularity so that if you do have the SDK, you should be able to write a new platform build under Framework/Automations/Platforms/[Your Platform Name] and run
+It doesn't support MacOS (because I don't have a mac) nor consoles (because of NDAs). However, the template is build for modularity so that if you do have the SDK, you should be able to write a new platform build under Framework/Automations/Platforms/[Your Platform Name] and run
 ```cpp
 Framework/Automations/Build.bat [Your Platform Name]
 ```
