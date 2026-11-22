@@ -8,7 +8,7 @@ For anyone of you who screams _**"JUST LET ME PROGRAM"**_ then hopefully this te
 
 **Though if you're a Linux or Mac user (which is like, a huge portion of SDL users), sorry to say: this template isn't for you.** It is very Windows-oriented (filled with .bats and .ps1) and even then it's ideally done inside Visual Studio IDE. I did this because I live in Windows, and I think it's better for building to other platforms such as consoles in the future.
 
-**A warning**: a lot of this template is vibe-coded. Why? Because I want to focus on actually programming and making this kind of stuff is extremely fragile and filled with gotchas. I've tested, revised, and heavily fine-tuned the outputted template for the last 6 months, and I am confident to say that it's stable.
+**Notice**: a lot of this template is vibe-coded. Why? Because I want to focus on actually programming and making this kind of stuff is extremely fragile and filled with gotchas. I've tested, revised, and heavily fine-tuned the outputted template for the last 6 months, and I am confident to say that it's stable.
 
 **To use it, download the latest `SDL Template.zip` from releases and copy it to**
 
